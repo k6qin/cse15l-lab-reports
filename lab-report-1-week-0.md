@@ -1,1 +1,1 @@
-![Screenshot Image](http://url/screenshot-image.png)
+![image](screenshot-image.png)
