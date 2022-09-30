@@ -23,6 +23,7 @@ In this step, I tried running some useful commands provided in my remote termina
 * Step 4: Moving Files with `scp`
 ![image](sc4-week1.png)
 ![image](sc5-week1.png)
+
 In this step, I want to copy `WhereAmI.java` file to `ssh`. I first compile the program on my computer, and it prints out the information about the client using `getProperty` function, which shows my computer running on **Mac OS**. Then, I log in to `ssh` and use ls to see that the file was indeed copied to my directory. I run in ssh and it prints out the information about the server, which is the remote computer running on **Linux**. 
 
 ---
