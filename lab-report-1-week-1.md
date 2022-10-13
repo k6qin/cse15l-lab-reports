@@ -3,8 +3,9 @@
 ---
 * Step 1: Installing VS Code
 
-![image](sc1-week1.png)
-My first step is to install the Visual Studio Code on my computer.          
+![image](vscode-week1.png)
+My first step is to install the Visual Studio Code on my computer through the website shown above.  
+![image](sc1-week1.png)       
 Then, I opened up my VS Code and this is the window that shows up.
 
 ---
@@ -17,10 +18,20 @@ Note that I was asked to enter a password before, and after I created a pair of 
 ---
 * Step 3: Trying Some Commands
 ![image](sc3-week1.png)
-In this step, I tried running some useful commands provided in my remote terminal. Commands such as `cd`, `pwd`, `ls`, `cat` were all included. With a lot of them tell me about the information of the directory or the information of files on the remote computer.
+In this step, I tried running some useful commands provided in my remote terminal. Commands such as `cd`, `pwd`, `ls`, `cat` were all included.
+
+(`cd`: stands for "change directory", allows user to move between directories. 
+`pwd`: stands for "print working directory", it prints out the full path name of your current directory.
+`ls`: this command lists all files in the current directory.
+`cat`: short for "concatenate", can concatenate files and is frequently used as terminal command.)
+
+With a lot of them tell me about the information of the directory or the information of files on the remote computer.
 
 ---
 * Step 4: Moving Files with `scp`
+![image](scp-week1.png)
+This screenshot demonstrates the different parts of the scp command. 
+The first part is our command `scp`, which copies files to the remote server. Then, the next part is `WhereAmI.java`, the file name of what we try to copy. Lastly, `cs15lfa22ns@ieng6.ucsd.edu:~/` is my username and path. Notice that everybody's username is different. If you want to remotely copy the file, make sure to change `ns` in my username to whatever username you have to login to your account.
 ![image](sc4-week1.png)
 ![image](sc5-week1.png)
 
