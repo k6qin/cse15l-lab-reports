@@ -2,7 +2,6 @@
 > *By Ken Qin*
 ---
 * Step 1: Installing VS Code
-
 ![image](vscode-week1.png)
 My first step is to install the Visual Studio Code on my computer through the website shown above.  
 ![image](sc1-week1.png)       
@@ -10,7 +9,6 @@ Then, I opened up my VS Code and this is the window that shows up.
 
 ---
 * Step 2: Remotely Connecting
-
 ![image](sc2-week1.png)
 Then, I use the command `ssh cs15lfa22ns@ieng6.ucsd.edu` to connect to the computer in the CSE basement (**the server**)
 Note that I was asked to enter a password before, and after I created a pair of SSH keys (in step 5), I was no longer asked to enter a password every time I connect to the server.
@@ -29,14 +27,11 @@ With a lot of them tell me about the information of the directory or the informa
 
 ---
 * Step 4: Moving Files with `scp`
-
 ![image](scp-week1.png)
-
 This screenshot demonstrates the different parts of the scp command. 
 The first part is our command `scp`, which copies files to the remote server. Then, the next part is `WhereAmI.java`, the file name of what we try to copy. Lastly, `cs15lfa22ns@ieng6.ucsd.edu:~/` is my username and path. Notice that everybody's username is different. If you want to remotely copy the file, make sure to change `ns` in my username to whatever username you have to login to your account.
 ![image](sc4-week1.png)
 ![image](sc5-week1.png)
-
 In this step, I want to copy `WhereAmI.java` file to `ssh`. I first compile the program on my computer, and it prints out the information about the client using `getProperty` function, which shows my computer running on **Mac OS**. Then, I log in to `ssh` and use ls to see that the file was indeed copied to my directory. I run in ssh and it prints out the information about the server, which is the remote computer running on **Linux**. 
 
 ---
