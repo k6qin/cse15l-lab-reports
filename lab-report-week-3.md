@@ -2,6 +2,7 @@
 > *By Ken Qin*
 ---
 * Part 1: Simplest Search Engine
+
 ```
 import java.io.IOException;
 import java.net.URI;
