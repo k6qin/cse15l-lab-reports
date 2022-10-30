@@ -188,3 +188,5 @@ technical/plos/journal.pbio.0030051.txt:        stage(s) a new factor (e.g., nic
 technical/plos/journal.pbio.0030136.txt:        The core concept of Lichtenstein's art is the iconic—drastic simplification of line and
 ```
 Notice that an alternative to the `grep -e` command that also allow to use multiple strings for searching is to simply use `grep` command with `\|` between the strings. Both methods produce the same outputs and are both very helpful when we want to search for lines that matches multiple patterns.
+
+Week 5 Lab Report
