@@ -7,3 +7,5 @@
 [Lab Report - Week 1](https://k6qin.github.io/cse15l-lab-reports/lab-report-1-week-1.html)
 
 [Lab Report - Week 3](https://k6qin.github.io/cse15l-lab-reports/lab-report-week-3.html)
+
+[Lab Report - Week 5](https://k6qin.github.io/cse15l-lab-reports/lab-report-week-5.html)
