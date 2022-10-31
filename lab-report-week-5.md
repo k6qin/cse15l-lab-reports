@@ -181,7 +181,8 @@ qinken@Kens-MBP skill-demo1 % grep -e "Parkinson's disease" -e "Lichtenstein's a
 technical/plos/journal.pbio.0020401.txt:        The consequence of Parkinson's disease (PD) is well described: a progressive movement
 technical/plos/journal.pbio.0030051.txt:        stage(s) a new factor (e.g., nicotine, sleep deprivation, or Parkinson's disease) had its
 technical/plos/journal.pbio.0030136.txt:        The core concept of Lichtenstein's art is the iconic—drastic simplification of line and
-----------------------------------
+```
+```
 qinken@Kens-MBP skill-demo1 % grep "Parkinson's disease\|Lichtenstein's art" */plos/*.txt 
 technical/plos/journal.pbio.0020401.txt:        The consequence of Parkinson's disease (PD) is well described: a progressive movement
 technical/plos/journal.pbio.0030051.txt:        stage(s) a new factor (e.g., nicotine, sleep deprivation, or Parkinson's disease) had its
