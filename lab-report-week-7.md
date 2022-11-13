@@ -34,9 +34,10 @@ Above shows this alternative way of find and replace all, with this useful Vim c
 ---
 * Part 2: Workflow Strategies
 
-Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
+-On VSCode: 93 seconds, have to go through each line in the file to change the string, `scp` to remote, sign in to remote, and test the file there, takes much more time.
 
-I would 
+-On Vim: 35 seconds, using Vim shortcuts made changing the string faster, and since I am already in remote, I just have to run `bash test.sh` after made changes in Vim, which results in less time taken.
 
+-Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why? What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
 
-What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
+I would prefer to work in Vim if the program is running remotely, as it is much more efficient and time-saving, given that I am familiar with the Vim commands. However, if the project is more time-consuming, and does not require tasks that would be performed faster in Vim (multiple edit task), I would probably work with the first style, since time is not a concern and I am more familiar with that traditional style. Though, this decision is subject to change once I get more familiar with Vim.
