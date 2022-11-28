@@ -3,6 +3,7 @@
 ---
  * Grading Script
 
+
  ```
 # Create your grading script here
 
@@ -58,6 +59,7 @@ else
     exit 1
 fi
 ```
+
 
 Above is my `grade.sh` grading script that aims to evaluate student submissions.
 ![image](sc1-week9-10.png)
